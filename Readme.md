@@ -13,8 +13,8 @@ sudo mkdir /var/www/charts
 cd /var/www/charts
 sudo git clone https://github.com/meigrafd/HighCharts .
 sudo mv 1wire.py /sbin/
-sudo chown -R www-data:www-data /var/www/charts
 sudo chmod 770 /sbin/1wire.py
+sudo chown -R www-data:www-data /var/www/charts
 ```
 Configure /sbin/1wire.py and set MySQL Stuff.
 ```
