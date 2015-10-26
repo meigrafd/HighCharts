@@ -23,7 +23,12 @@ Dont forget to install needed Python Modules
 ```
 sudo apt-get install python3-pip && sudo pip-3.2 install cymysql
 ```
-Edit root Crontab and add following line:
+Edit root Crontab
+```
+sudo crontab -e
+```
+
+and add following line:
 ```
 * * * * *     /sbin/1wire.py >/dev/null 2>&1
 ```
