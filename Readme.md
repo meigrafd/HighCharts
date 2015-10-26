@@ -8,6 +8,7 @@ Installation:
 --------
 
 ```
+sudo apt-get install git-core
 sudo mkdir /var/www/charts
 cd /var/www/charts
 sudo git clone https://github.com/meigrafd/HighCharts .
