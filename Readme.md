@@ -16,6 +16,10 @@ sudo mv 1wire.py /usr/local/sbin/
 sudo chmod 770 /usr/local/sbin/1wire.py
 sudo chown -R www-data:www-data /var/www/charts
 ```
+Configure config.php
+```
+sudo nano /var/www/charts/include/config.php
+```
 Configure /usr/local/sbin/1wire.py and set MySQL Stuff.
 ```
 sudo nano /usr/local/sbin/1wire.py
