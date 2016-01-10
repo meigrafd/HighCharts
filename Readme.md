@@ -20,7 +20,7 @@ Configure config.php
 ```
 sudo nano /var/www/charts/include/config.php
 ```
-Configure /usr/local/sbin/1wire.py and set MySQL Stuff.
+Edit /usr/local/sbin/1wire.py and configure the MySQL lines.
 ```
 sudo nano /usr/local/sbin/1wire.py
 ```
