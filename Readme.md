@@ -9,16 +9,16 @@ Installation:
 
 ```
 sudo apt-get install git-core
-sudo mkdir /var/www/charts
-cd /var/www/charts
+sudo mkdir /var/www/html/charts
+cd /var/www/html/charts
 sudo git clone https://github.com/meigrafd/HighCharts .
 sudo mv 1wire.py /usr/local/sbin/
 sudo chmod 770 /usr/local/sbin/1wire.py
-sudo chown -R www-data:www-data /var/www/charts
+sudo chown -R www-data:www-data /var/www/html/charts
 ```
 Edit config.php and configure at last the db lines:
 ```
-sudo nano /var/www/charts/include/config.php
+sudo nano /var/www/html/charts/include/config.php
 ```
 ```
 $dbuser = "root";
