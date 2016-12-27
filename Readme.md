@@ -43,7 +43,10 @@ sensor_dict["/sys/bus/w1/devices/10-000801b5959d/w1_slave"] = "Wohnzimmer"
 
 Dont forget to install needed Python Modules
 ```
-sudo apt-get install python3-pip && sudo pip-3.2 install cymysql
+sudo apt-get install python3-pip
+sudo pip-3.2 install cymysql
+# or
+sudo pip3 install cymysql
 ```
 Edit root Crontab
 ```
